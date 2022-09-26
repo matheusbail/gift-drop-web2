@@ -5,29 +5,29 @@ Link do protótipo no figma: https://www.figma.com/proto/YYGuwFzeGqadWQzrCT2peX/
 
 Caixas de Diálogo
 
-- [ ] prompt
+- [x] prompt
 - [x] alert
-- [ ] confirm
+- [x] confirm
 
 Temporizadores
 
-- [ ] setInterval
-- [ ] setTimeout
+- [x] setInterval
+- [x] setTimeout
 
 Funções
 
 - [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
+- [x] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
-- [ ] Função com nome
+- [x] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
-- [ ] Função Flecha - Arrow Function
+- [x] Função Flecha - Arrow Function
 
 Eventos
 
-- [x] Evento de carregamento do documento - onload
+- [ ] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [ ] Eventos de formulário - onfocus e onblur
@@ -37,10 +37,10 @@ Eventos
 Acesso aos elementos DOM do HTML
 
 - [ ] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
+- [x] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+- [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 
@@ -69,8 +69,8 @@ Qualidade do código
 - [ ] Usar strict mode
 - [ ] Usar Module Pattern
 - [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [ ] Usar let ou const ao invés de var
-- [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
+- [x] Usar let ou const ao invés de var
+- [x] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
 
 Formulário
 
@@ -86,7 +86,7 @@ Formulário
 
 jQuery
 
-- [ ] Uso de seletores CSS - id, classe e tag
+- [x] Uso de seletores CSS - id, classe e tag
 - [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
 - [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
 - [ ] Efeitos fade ou slide
@@ -97,8 +97,8 @@ jQuery
 
 Web Storage
 
-- [ ] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
+- [x] LocalStorage ou SessionStorage
+- [x] Leitura e escrita de dados simples
 - [ ] Leitura e escrita de JSON
 
 Ajax com Backend

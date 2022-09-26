@@ -9,7 +9,7 @@ paraOPerfil.addEventListener('click', function(){
     window.location.href ='http://127.0.0.1:5500/gift-drop/profile.html'
 })
 
-var password = document.getElementById('senhaLog');
+let password = document.getElementById('senhaLog');
 document.getElementById('acessarPerfil').addEventListener('click', function(){
     localStorage.senhaLog = password.value;
 
