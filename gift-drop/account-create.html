@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="css/front.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Sedgwick+Ave&display=swap"
+        rel="stylesheet">
     <title>Crie sua Conta</title>
 </head>
+
 <body>
-    <header>Gift-Cards</header>
-    <div class="idSenhaAC"> Nome:
-
-        </div>
-
-        <div class ="em">
-                        Email:
-        </div>
-    <div class="idSenha">
-            Senha:
+    <header>Gift-Drops</header>
+    <form >
+    <div class="idSenhaAC"><input class="inputNome"> Nome:
+    </input>
     </div>
-        <div class ="buttonAAC">Acessar</div>
-        <div class ="buttonBAC">Voltar</div>
+
+    <div class="em"><input type="email" id="mail" class="inputEmail">
+        Email:
+    </input>
+    </div>
+    <div class="idSenha"><input type="password" class="inputSenha">
+        Senha:
+    </input>
+    </div>
+</form>
+   
+    <button id="acessarPerfil"class="buttonAAC">Salvar e Acessar</button>
+    <button id="voltar" class="buttonBAC">Voltar</button>
+    <script src="src/source.js"></script>
 </body>
+
 </html>
